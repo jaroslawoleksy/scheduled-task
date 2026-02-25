@@ -2,7 +2,7 @@ import datetime as dt
 import random
 import pandas
 import smtplib
-import ios
+import os
 ##################### Extra Hard Starting Project ######################
 
 MY_EMAIL = os.environ.get("MY_EMAIL")
