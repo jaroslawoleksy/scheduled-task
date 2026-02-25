@@ -5,8 +5,8 @@ import smtplib
 import ios
 ##################### Extra Hard Starting Project ######################
 
-MY_EMAIL = 
-MY_PASSWORD = 
+MY_EMAIL = os.environ.get("MY_EMAIL")
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
 birthdays=[]
 
 def send_email(address, message):
